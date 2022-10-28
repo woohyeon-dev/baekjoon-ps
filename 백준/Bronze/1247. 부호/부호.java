@@ -11,7 +11,6 @@ public class Main {
       for (int j = 0; j < n; j++) {
         sum = sum.add(new BigInteger(br.readLine()));
       }
-
       // compareTo(0)이 -1이면 음수, 1이면 양수, 0이면 0
       if (sum.compareTo(BigInteger.ZERO) == 0) {
         System.out.println(0);
