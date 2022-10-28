@@ -33,7 +33,7 @@ public class Main {
       sb.append(num);
 
       // 마지막은 개행 처리 x
-      if (i != t) {
+      if (i != (t-1)) {
         sb.append('\n');
       }
     }
